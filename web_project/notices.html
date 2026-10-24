@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Notices - Omega Learn</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="navbar">
+
+            <div class="logo">
+
+                <div class="logo-symbol">Ω</div>
+
+                <div class="logo-text">
+                    <span>OMEGA</span><br>
+                    <span>LEARN</span>
+                </div>
+
+            </div>
+
+
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="notes.html">Notes</a>
+                <a href="project.html">Projects</a>
+                <a href="store.html">Store</a>
+                <a href="notices.html" class="active">Notices</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+
+            <div class="nav-buttons">
+
+                <a href="login.html" class="login">Log in</a>
+                <a href="signup.html" class="signup">Get Started</a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="notices">
+
+            <h2>Notice Board</h2>
+
+            <p>
+                Latest updates and announcements from Omega Learn.
+            </p>
+
+
+            <div class="notice-controls">
+
+                <input
+                    type="text"
+                    id="searchNotice"
+                    aria-label="Search notices"
+                    placeholder="Search notices..."
+                >
+
+                <label class="sr-only" for="categoryFilter">Filter notices by category</label>
+                <select id="categoryFilter">
+
+                    <option value="All">All Categories</option>
+                    <option value="Notes">Notes</option>
+                    <option value="Course">Course</option>
+                    <option value="Project">Project</option>
+                    <option value="Exam">Exam</option>
+                    <option value="General">General</option>
+                    <option value="Event">Event</option>
+                    <option value="Study">Study</option>
+
+                </select>
+
+
+                <label class="sr-only" for="sortNotice">Sort notices</label>
+                <select id="sortNotice">
+
+                    <option value="newest">Newest First</option>
+                    <option value="oldest">Oldest First</option>
+
+                </select>
+
+            </div>
+
+
+            <p id="loading" role="status" aria-live="polite">
+                Loading notices...
+            </p>
+
+
+            <p id="errorMessage" role="alert"></p>
+
+
+            <div id="noticeList" aria-live="polite"></div>
+
+
+            <div id="pagination"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-logo">
+            Ω Omega Learn
+        </div>
+
+        <p class="copyright">
+            © 2026 Omega Learn. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

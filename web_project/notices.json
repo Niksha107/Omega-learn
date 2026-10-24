@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "New DSA Notes Available",
+        "category": "Notes",
+        "date": "2026-09-16",
+        "description": "Unit 4 DSA notes are now available for students."
+    },
+    {
+        "id": 2,
+        "title": "C++ Practice Questions Added",
+        "category": "Notes",
+        "date": "2026-09-15",
+        "description": "New C++ practice questions have been added to the learning section."
+    },
+    {
+        "id": 3,
+        "title": "Web Development Course Updated",
+        "category": "Course",
+        "date": "2026-09-14",
+        "description": "New HTML, CSS and JavaScript topics have been added."
+    },
+    {
+        "id": 4,
+        "title": "Java OOP Revision Material",
+        "category": "Notes",
+        "date": "2026-09-13",
+        "description": "Java OOP revision material is now available."
+    },
+    {
+        "id": 5,
+        "title": "Mid Semester Exam Schedule",
+        "category": "Exam",
+        "date": "2026-09-12",
+        "description": "The mid semester examination schedule has been updated."
+    },
+    {
+        "id": 6,
+        "title": "New Python Course Added",
+        "category": "Course",
+        "date": "2026-09-11",
+        "description": "A beginner-friendly Python course is now available."
+    },
+    {
+        "id": 7,
+        "title": "Mini Project Submission",
+        "category": "Project",
+        "date": "2026-09-10",
+        "description": "Students can now submit their mini projects."
+    },
+    {
+        "id": 8,
+        "title": "AI Learning Resources Added",
+        "category": "Notes",
+        "date": "2026-09-09",
+        "description": "New artificial intelligence learning resources have been added."
+    },
+    {
+        "id": 9,
+        "title": "DSA Quiz Available",
+        "category": "General",
+        "date": "2026-09-08",
+        "description": "A new DSA quiz is available for practice."
+    },
+    {
+        "id": 10,
+        "title": "Project Ideas Updated",
+        "category": "Project",
+        "date": "2026-09-07",
+        "description": "New beginner and intermediate project ideas have been added."
+    },
+    {
+        "id": 11,
+        "title": "JavaScript DOM Notes Added",
+        "category": "Notes",
+        "date": "2026-09-06",
+        "description": "DOM manipulation notes are now available."
+    },
+    {
+        "id": 12,
+        "title": "New C Programming Course",
+        "category": "Course",
+        "date": "2026-09-05",
+        "description": "A new C programming course has been added for beginners."
+    },
+    {
+        "id": 13,
+        "title": "Assignment Submission Reminder",
+        "category": "General",
+        "date": "2026-09-04",
+        "description": "Students are reminded to submit their pending assignments."
+    },
+    {
+        "id": 14,
+        "title": "Web Development Project Submission",
+        "category": "Project",
+        "date": "2026-09-03",
+        "description": "Web development projects can now be submitted for review."
+    },
+    {
+        "id": 15,
+        "title": "Exam Preparation Session",
+        "category": "Exam",
+        "date": "2026-09-02",
+        "description": "An exam preparation session will be available for students."
+    }
+]

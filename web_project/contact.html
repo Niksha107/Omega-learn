@@ -1,0 +1,92 @@
+<!-- http://localhost/web_project/contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Omega Learn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <div class="logo-symbol">Ω</div>
+            <div class="logo-text">
+                <span>OMEGA</span><br>
+                <span>LEARN</span>
+            </div>
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="notes.html">Notes</a>
+            <a href="project.html">Projects</a>
+            <a href="store.html">Store</a>
+            <a href="notices.html">Notices</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login">Log in</a>
+            <a href="signup.html" class="signup">Get Started</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="signup-page">
+
+        <div class="signup-box">
+
+            <h2>Contact Omega Learn</h2>
+
+            <form action="process.php" method="POST">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" required>
+
+                <label for="course">Course</label>
+                <select id="course" name="course" required>
+                    <option value="">Select Course</option>
+                    <option value="C Programming">C Programming</option>
+                    <option value="C++">C++</option>
+                    <option value="DSA">DSA</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Python">Python</option>
+                    <option value="AI">AI</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+    </section>
+</main>
+
+<footer>
+    <div class="footer-logo">
+        Ω Omega Learn
+    </div>
+
+    <p class="copyright">
+        © 2026 Omega Learn. All rights reserved.
+    </p>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Log In | Omega Learn</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="signup-page">
+            <div class="signup-box">
+
+                <div class="Logo">
+                    <div class="Logo-symbol">Ω</div>
+                    <div class="Logo-text">
+                        <span>OMEGA</span><br>
+                        <span>LEARN</span>
+                    </div>
+                </div>
+
+                <h2>Welcome Back</h2>
+                <p>Log in to continue learning with Omega Learn.</p>
+
+                <form id="loginForm" action="login.php" method="POST" novalidate>
+
+                    <label for="loginEmail">Email or Phone Number</label>
+                    <input type="text" id="loginEmail" name="email" placeholder="Enter email or phone number"
+                        autocomplete="username" required>
+                    <small class="error" id="loginEmailError"></small>
+
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="password" placeholder="Enter your password"
+                        autocomplete="current-password" required>
+                    <small class="error" id="loginPasswordError"></small>
+
+                    <button type="submit" class="form-btn">
+                        Log In
+                    </button>
+
+                </form>
+
+                <div class="or">
+                    <span>OR</span>
+                </div>
+
+                <a href="#" class="google">Continue with Google</a>
+
+                <p class="account">
+                    Don't have an account?
+                    <a href="signup.html">Sign Up</a>
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

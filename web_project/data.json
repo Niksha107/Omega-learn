@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Niksha Ramani",
+        "email": "niksha@gmail.com",
+        "phone": "9922123456",
+        "course": "DSA",
+        "message": "I want to learn DSA.",
+        "date": "2026-09-24 15:40:00"
+    },
+    {
+        "id": 2,
+        "name": "Fenil Ramani",
+        "email": "fenil@gmail.com",
+        "phone": "9912345678",
+        "course": "DSA",
+        "message": "I want to learn dsa.",
+        "date": "2026-09-24 12:18:22"
+    },
+    {
+        "id": 3,
+        "name": "xyz",
+        "email": "xyz@gmail.com",
+        "phone": "9912345678",
+        "course": "DSA",
+        "message": "i wanna learn dsa",
+        "date": "2026-10-10 14:50:24"
+    }
+]
