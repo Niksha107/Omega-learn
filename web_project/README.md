@@ -142,17 +142,6 @@ Public notices and notice administration use `notices.json` as their shared data
 - Set a strong local database password and keep it out of source control.
 - The project is a local educational application, not a production-ready service. Review and test all routes before exposing it to a network.
 
-## Screenshots checklist
-
-- [ ] Homepage and navigation on desktop
-- [ ] Public notice board with search and category filter
-- [ ] Registration validation and successful registration
-- [ ] Student dashboard and logout
-- [ ] Admin dashboard and audit-log section
-- [ ] Student list plus add/edit screens
-- [ ] Notice management and public notice board after an admin change
-- [ ] Mobile-width view of the homepage and notices
-
 ## GitHub repository
 
 Repository URL: `<add your GitHub repository URL after creating it>`
